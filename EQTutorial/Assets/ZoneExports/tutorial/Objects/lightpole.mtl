@@ -1,0 +1,57 @@
+# Lantern Extractor - Material Definitions
+newmtl d_lantholderd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_lantholderd.png
+newmtl d_lantholderl
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_lantholderl.png
+newmtl d_lantern3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_lantern3.png
+newmtl d_lantern2a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_lantern2a.png
+newmtl d_lantern1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_lantern1.png
+newmtl b_fire1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd b_fire1.png
+newmtl d_lanterntop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_lanterntop.png
+newmtl b_glass
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd b_glass.png

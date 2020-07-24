@@ -1,0 +1,13 @@
+# Lantern Extractor - Object Mesh - rug1
+mtllib rug1.mtl
+v 4.020417 3.008789 0
+vt 0 -1
+v -3.967864 3.008789 0
+vt 1 -1
+v -3.967864 -3.008789 0
+vt 1 0
+v 4.020417 -3.008789 0
+vt 0 0
+usemtl d_rug1
+f 3/3 4/4 1/1
+f 3/3 1/1 2/2

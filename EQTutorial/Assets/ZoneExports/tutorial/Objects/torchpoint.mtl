@@ -1,0 +1,36 @@
+# Lantern Extractor - Material Definitions
+newmtl b_fire1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd b_fire1.png
+newmtl d_torchtop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_torchtop.png
+newmtl d_torchbot
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_torchbot.png
+newmtl d_holderd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_holderd.png
+newmtl d_holderl
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_holderl.png

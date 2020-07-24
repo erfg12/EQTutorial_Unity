@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 8c32039fd8e817a4885b4a22cbe32966
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: default
+    100002: //RootNode
+    400000: default
+    400002: //RootNode
+    2100000: d_marble1
+    2100002: d_grass1
+    2100004: d_movekeys
+    2100006: d_dockwd
+    2100008: d_grassrock
+    2100010: d_coble3
+    2100012: d_gsupwall
+    2100014: d_wawall1
+    2100016: d_cobw1
+    2100018: d_rock1
+    2100020: d_grasdrt1
+    2100022: d_lumbin1
+    2100024: d_guild
+    2100026: d_drroof
+    2100028: d_lumbf1
+    2100030: d_16wall3
+    2100032: d_coble1
+    2100034: d_16wood2
+    2100036: d_16wall2
+    2100038: d_bank1
+    2100040: d_16roof
+    2100042: d_18wall1
+    2100044: d_15roof
+    2100046: d_16deck
+    2100048: d_meeks
+    2100050: d_druid
+    2100052: d_swimkeys
+    2100054: d_pilon
+    2100056: d_pilon2
+    2100058: d_unpilon
+    2100060: d_10dirt1
+    2100062: d_cryptfloor
+    2100064: d_cloud
+    2100066: d_tomb2
+    2100068: d_tomb5
+    2100070: d_tomb8
+    2100072: d_tomb4
+    2100074: d_tomb6
+    2100076: d_tomb7
+    2100078: d_fixx
+    2100080: d_tomb3
+    2100082: d_crypt1
+    2100084: d_crypttop
+    2100086: d_falls1
+    2300000: default
+    3300000: default
+    4300000: default
+    6400000: default
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_10dirt1
+    second: {fileID: 2100000, guid: fde48202e16b2ed469cc5ef052196016, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_15roof
+    second: {fileID: 2100000, guid: de6cabc9876bc1949b5d9543e650823a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_16deck
+    second: {fileID: 2100000, guid: 1ecd37895d904a24481123ff399d6bf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_16roof
+    second: {fileID: 2100000, guid: 49845d352f418674598e6914c333067f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_16wall2
+    second: {fileID: 2100000, guid: da8590d9673b50a4a8f84bcdf4ebc66f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_16wall3
+    second: {fileID: 2100000, guid: 8bd307c8a86f4c043a1dba31c7f53744, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_16wood2
+    second: {fileID: 2100000, guid: db5ba1d85e6547242b939b9afdaca7bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_18wall1
+    second: {fileID: 2100000, guid: 67ce8a2a7e9197b418311b65e51652e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_bank1
+    second: {fileID: 2100000, guid: ab1bcea57d99d3744bb0e2d7812e4b7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_cloud
+    second: {fileID: 2100000, guid: 94f7604edf4d3964b918c3bb4aedaab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_coble1
+    second: {fileID: 2100000, guid: 95063c85dbb2ca04aa9fd434ab8c1558, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_coble3
+    second: {fileID: 2100000, guid: 969b49cb923ff804b921c7eb43479677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_cobw1
+    second: {fileID: 2100000, guid: 9945e8b1de6cb12488fae10e83f2a97a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_crypt1
+    second: {fileID: 2100000, guid: 3b256e2f87b2b934d939d7f4f1c2c778, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_cryptfloor
+    second: {fileID: 2100000, guid: ab91942ce42b4794dabae3fcbc1c1b8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_crypttop
+    second: {fileID: 2100000, guid: 795a5b323b8c9674aa5cdd838082a1d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_dockwd
+    second: {fileID: 2100000, guid: 3fedb60bdc6b42045889aed27612c568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_drroof
+    second: {fileID: 2100000, guid: 19d68e3515148e14fb3ea0a3b3c34150, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_druid
+    second: {fileID: 2100000, guid: 5adbc211052d3b445949d0058fd5ace9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_falls1
+    second: {fileID: 2100000, guid: 47ab998181b876f45b9aa0535f4e15af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_fixx
+    second: {fileID: 2100000, guid: 08826ee3b2f4c8240b18e7526ae26cb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_grasdrt1
+    second: {fileID: 2100000, guid: 0243c3f354f6b7440a7478b31010da69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_grass1
+    second: {fileID: 2100000, guid: c193351bb958bcb4f931c4060750ba58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_grassrock
+    second: {fileID: 2100000, guid: c3189ee2fb2da0046b9914587c501a93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_gsupwall
+    second: {fileID: 2100000, guid: aaf11f1fbe542ba4bb65e0d3bb210a32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_guild
+    second: {fileID: 2100000, guid: 3acff07e6c92f324bab5947b8984f31c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_lumbf1
+    second: {fileID: 2100000, guid: c0aec6c3782cd774e9e810cca100cd0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_lumbin1
+    second: {fileID: 2100000, guid: d30779813c55352468b746f321a5e852, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_marble1
+    second: {fileID: 2100000, guid: 36a3cec7045e4694abade4fc90f9bd76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_meeks
+    second: {fileID: 2100000, guid: c5301fe5cf5a5f04c92ebaeb3557f4a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_movekeys
+    second: {fileID: 2100000, guid: 4a6417955fbf1254b9867bda94fd34db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_pilon
+    second: {fileID: 2100000, guid: c965ebd9137ec23468b291a466a7e7a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_pilon2
+    second: {fileID: 2100000, guid: ee7545e40cc409f4986ed3d3c831e64d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_rock1
+    second: {fileID: 2100000, guid: 26cf9afebbf24e041bc12e77d974d3f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_swimkeys
+    second: {fileID: 2100000, guid: 6c4dd6628b9c224489cf6686c90cdbc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_tomb2
+    second: {fileID: 2100000, guid: 31a5e2c53eaa00b4ab4c05b296dfbe48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_tomb3
+    second: {fileID: 2100000, guid: 6d0ce3ab30722e343b61b6be01c10991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_tomb4
+    second: {fileID: 2100000, guid: e1ccdef70a1b45e449db0af9c3a3a767, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_tomb5
+    second: {fileID: 2100000, guid: 97b60b155f101e84aafa6186aa3b2cda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_tomb6
+    second: {fileID: 2100000, guid: e3e6eac297878684f95948b417e93632, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_tomb7
+    second: {fileID: 2100000, guid: 10d302ff3a221414fa4a0fa72d5e83cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_tomb8
+    second: {fileID: 2100000, guid: f69bcb88d1e957543b72d397a9825695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_unpilon
+    second: {fileID: 2100000, guid: 6f902d88dc459ab4fa39de4d50424643, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: d_wawall1
+    second: {fileID: 2100000, guid: 2a2b2acb1a82bd64fbfa2234feb45d2a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,15 @@
+# Lantern Extractor - Material Definitions
+newmtl m_dedpine
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd m_dedpine.png
+newmtl d_dedpineb
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_dedpineb.png
