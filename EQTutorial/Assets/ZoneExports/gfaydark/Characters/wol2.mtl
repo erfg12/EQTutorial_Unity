@@ -1,0 +1,112 @@
+newmtl wolch01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wolch0201.png
+
+newmtl wolft01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wolft0201.png
+
+newmtl wolft02
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wolft0202.png
+
+newmtl wolhe01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wolhe0201.png
+
+newmtl wolhe02
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wolhe0202.png
+
+newmtl wolhe03
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wolhe0203.png
+
+newmtl wolhe04
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wolhe0204.png
+
+newmtl wolhe05
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wolhe0205.png
+
+newmtl wolhe06
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wolhe0206.png
+
+newmtl wolhe07
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wolhe0207.png
+
+newmtl wolhe08
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wolhe0208.png
+
+newmtl wollg01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wollg0201.png
+
+newmtl wollg02
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wollg0202.png
+
+newmtl wollg03
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd d_wollg0203.png
+
