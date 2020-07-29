@@ -1,0 +1,4505 @@
+fileFormatVersion: 2
+guid: 3b53b881441a3a840b251d3eeee8f635
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Actor
+    100002: Biceps_L
+    100004: Biceps_R
+    100006: Boots_L
+    100008: Boots_R
+    100010: Calf_L
+    100012: Calf_R
+    100014: Chest
+    100016: DMSPRITEDEF
+    100018: //RootNode
+    100020: Fist_L
+    100022: Fist_L2
+    100024: Fist_R
+    100026: Fist_R2
+    100028: Forearm_L
+    100030: Forearm_R
+    100032: GUILD_POINT
+    100034: HandPoint_L
+    100036: HandPoint_R
+    100038: Head
+    100040: HeadMain0_DMSPRITEDEF
+    100042: HeadPoint
+    100044: Neck
+    100046: Pelvis
+    100048: SHIELD_POINT
+    100050: Thight_L
+    100052: Thight_R
+    100054: Toes_L
+    100056: Toes_R
+    100058: Track
+    100060: U3DMesh
+    400000: Actor
+    400002: Biceps_L
+    400004: Biceps_R
+    400006: Boots_L
+    400008: Boots_R
+    400010: Calf_L
+    400012: Calf_R
+    400014: Chest
+    400016: DMSPRITEDEF
+    400018: //RootNode
+    400020: Fist_L
+    400022: Fist_L2
+    400024: Fist_R
+    400026: Fist_R2
+    400028: Forearm_L
+    400030: Forearm_R
+    400032: GUILD_POINT
+    400034: HandPoint_L
+    400036: HandPoint_R
+    400038: Head
+    400040: HeadMain0_DMSPRITEDEF
+    400042: HeadPoint
+    400044: Neck
+    400046: Pelvis
+    400048: SHIELD_POINT
+    400050: Thight_L
+    400052: Thight_R
+    400054: Toes_L
+    400056: Toes_R
+    400058: Track
+    400060: U3DMesh
+    4300000: U3DMesh
+    7400000: Kick
+    7400002: Melee1HP
+    7400004: Melee2HS
+    7400006: Melee2HB
+    7400008: Melee
+    7400010: MeleeOffhand
+    7400012: MeleeBash
+    7400014: MeleeH2H
+    7400016: Ranged
+    7400018: SwimAttack
+    7400020: KickRound
+    7400022: Hurt
+    7400024: Hurt2
+    7400026: Drowning
+    7400028: Dead
+    7400030: Walk
+    7400032: Run
+    7400034: RunJump
+    7400036: Jump
+    7400038: Fall
+    7400040: Sneak
+    7400042: Climb
+    7400044: Crouch
+    7400046: TreadWater
+    7400048: Idle2
+    7400050: Idle
+    7400052: Sit
+    7400054: Turn
+    7400056: Turn2
+    7400058: Loot
+    7400060: Swim
+    7400062: SocialCheer
+    7400064: SocialCry
+    7400066: SocialWave
+    7400068: SocialRude
+    7400070: InstrumentStringed
+    7400072: InstrumentWind
+    7400074: CastBuff
+    7400076: CastHeal
+    7400078: CastDamage
+    7400080: KickFlying
+    7400082: MeleeEagleStrike
+    7400084: MeleeDragonPunch
+    9500000: //RootNode
+    13700000: U3DMesh
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMCH0001_MDF
+    second: {fileID: 2100000, guid: 35ac28e765286a34f8660e7237fcb17f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMCH0002_MDF
+    second: {fileID: 2100000, guid: 0f5dc2f8d69ef4e46a58010b1d119307, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMFA0001_MDF
+    second: {fileID: 2100000, guid: 49b4301e49ec5554eb081143377ee857, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMFT0001_MDF
+    second: {fileID: 2100000, guid: 603df251de954b44fb2a386dc3675176, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMFT0002_MDF
+    second: {fileID: 2100000, guid: 15d468f2f5136cd42a40e82f8cbb9a2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMHE0001_MDF
+    second: {fileID: 2100000, guid: 9f72466520c242a449523d30d9c88e78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMHE0003_MDF
+    second: {fileID: 2100000, guid: 3809486df72fc9a47aacf16e3ab200c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMHN0001_MDF
+    second: {fileID: 2100000, guid: af9fafe1bda093845834080d3e8755d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMHN0002_MDF
+    second: {fileID: 2100000, guid: 286514b29cbf18f42b42505ee6a96873, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMLG0001_MDF
+    second: {fileID: 2100000, guid: 92b64ab2e261edd4f915fe88dcfc62ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMLG0002_MDF
+    second: {fileID: 2100000, guid: 88beb22cae0332342af961c045b1f938, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMLG0003_MDF
+    second: {fileID: 2100000, guid: b8cd70f1999d25c4494e11c8e1f1f6e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ELMUA0001_MDF
+    second: {fileID: 2100000, guid: aff5fad430c17714d87312a1d9e6b313, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'Thight_L' : position error =
+      81.191307 mm\n\t'Calf_L' : position error = 81.197571 mm\nAvatar Rig Configuration
+      mis-match. Inbetween bone rotation in configuration does not match rotation
+      in animation file:\n\t'Neck' : rotation error = 3.575808 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Melee1HP' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Thight_R' has translation animation that will
+      be discarded.\n\t'Thight_L' has translation animation that will be discarded.\n\nClip
+      'MeleeBash' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'KickRound' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
+      has translation animation that will be discarded.\n\nClip 'Hurt2' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Neck' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'Drowning'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Neck' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dead' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Run' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'RunJump' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Jump' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
+      has translation animation that will be discarded.\n\nClip 'Sneak' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Chest' has translation animation
+      that will be discarded.\n\nClip 'Climb' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Neck' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'Crouch' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Chest' has translation animation that will
+      be discarded.\n\nClip 'Idle2' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Chest' has translation animation that will be discarded.\n\nClip
+      'Idle' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
+      has translation animation that will be discarded.\n\nClip 'Sit' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Neck' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'Turn' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Chest' has translation animation
+      that will be discarded.\n\nClip 'Turn2' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Chest' has translation animation that will be discarded.\n\nClip
+      'SocialCheer' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'SocialCry' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'SocialWave' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'SocialRude' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'CastBuff' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'CastHeal' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'CastDamage' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'KickFlying' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
+      has translation animation that will be discarded.\n\nClip 'MeleeEagleStrike'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Thight_L' has
+      translation animation that will be discarded.\n\nClip 'MeleeDragonPunch' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Thight_L' has
+      translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Kick
+      takeName: Kick
+      firstFrame: 0
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Melee1HP
+      takeName: Melee1HP
+      firstFrame: 0
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Melee2HS
+      takeName: Melee2HS
+      firstFrame: 0
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Melee2HB
+      takeName: Melee2HB
+      firstFrame: 0
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Melee
+      takeName: Melee
+      firstFrame: 0
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MeleeOffhand
+      takeName: MeleeOffhand
+      firstFrame: 0
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MeleeBash
+      takeName: MeleeBash
+      firstFrame: 0
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MeleeH2H
+      takeName: MeleeH2H
+      firstFrame: 0
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ranged
+      takeName: Ranged
+      firstFrame: 0
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SwimAttack
+      takeName: SwimAttack
+      firstFrame: 0
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: KickRound
+      takeName: KickRound
+      firstFrame: 0
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hurt
+      takeName: Hurt
+      firstFrame: 0
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hurt2
+      takeName: Hurt2
+      firstFrame: 0
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Drowning
+      takeName: Drowning
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dead
+      takeName: Dead
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RunJump
+      takeName: RunJump
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Jump
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fall
+      takeName: Fall
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sneak
+      takeName: Sneak
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Climb
+      takeName: Climb
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Crouch
+      takeName: Crouch
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TreadWater
+      takeName: TreadWater
+      firstFrame: 0
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle2
+      takeName: Idle2
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sit
+      takeName: Sit
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn
+      takeName: Turn
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn2
+      takeName: Turn2
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Loot
+      takeName: Loot
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Swim
+      takeName: Swim
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SocialCheer
+      takeName: SocialCheer
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SocialCry
+      takeName: SocialCry
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SocialWave
+      takeName: SocialWave
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SocialRude
+      takeName: SocialRude
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: InstrumentStringed
+      takeName: InstrumentStringed
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: InstrumentWind
+      takeName: InstrumentWind
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CastBuff
+      takeName: CastBuff
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CastHeal
+      takeName: CastHeal
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CastDamage
+      takeName: CastDamage
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: KickFlying
+      takeName: KickFlying
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MeleeEagleStrike
+      takeName: MeleeEagleStrike
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MeleeDragonPunch
+      takeName: MeleeDragonPunch
+      firstFrame: 0
+      lastFrame: 735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Actor
+        weight: 1
+      - path: Actor/DMSPRITEDEF
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/Fist_L/Fist_L2/HandPoint_L
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_L/Forearm_L/SHIELD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Biceps_R/Forearm_R/Fist_R/Fist_R2/HandPoint_R
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/GUILD_POINT
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Chest/Neck/Head/HeadPoint
+        weight: 0
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_L/Calf_L/Boots_L/Toes_L
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R
+        weight: 1
+      - path: Actor/DMSPRITEDEF/Track/Pelvis/Thight_R/Calf_R/Boots_R/Toes_R
+        weight: 1
+      - path: Actor/HeadMain0_DMSPRITEDEF
+        weight: 0
+      - path: U3DMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thight_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thight_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Calf_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Calf_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boots_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Boots_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Biceps_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Biceps_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Forearm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Forearm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: ELM_T0_HE00(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Actor
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DMSPRITEDEF
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Track
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis
+      parentName: 
+      position: {x: 0, y: 0, z: 0.03625781}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thight_R
+      parentName: 
+      position: {x: 0.0035937498, y: -0.00058593997, z: 0.0015624999}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Calf_R
+      parentName: 
+      position: {x: -0.00109375, y: 0.00101563, z: -0.01675781}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boots_R
+      parentName: 
+      position: {x: -0.00070313, y: 0.00019531, z: -0.01640625}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toes_R
+      parentName: 
+      position: {x: 0.0009375, y: -0.0040625, z: -0.0035546897}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thight_L
+      parentName: 
+      position: {x: -0.0035937498, y: -0.00058593997, z: 0.0015624999}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Calf_L
+      parentName: 
+      position: {x: 0.00109375, y: 0.00101563, z: -0.01675781}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boots_L
+      parentName: 
+      position: {x: 0.00070313, y: 0.00019531, z: -0.01640625}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toes_L
+      parentName: 
+      position: {x: -0.0009375, y: -0.0040625, z: -0.0035546897}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: 
+      position: {x: 0.00003906, y: 0.00105469, z: 0.0046874997}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: 
+      position: {x: -0, y: 0.0019531301, z: 0.012109379}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: 
+      position: {x: -0, y: -0.000625, z: 0.00191406}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GUILD_POINT
+      parentName: 
+      position: {x: -0, y: -0.0034375, z: 0.00242188}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HeadPoint
+      parentName: 
+      position: {x: -0, y: -0.0034375, z: 0.0042187497}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Biceps_R
+      parentName: 
+      position: {x: 0.00546875, y: 0.0009375, z: 0.010468749}
+      rotation: {x: -0.000000059604638, y: -0.5981118, z: -0.08758973, w: 0.7966118}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Forearm_R
+      parentName: 
+      position: {x: 0.00242188, y: 0.00136719, z: -0.00933594}
+      rotation: {x: 0.16092296, y: -0.08113035, z: 0.0335762, w: 0.9830536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fist_R
+      parentName: 
+      position: {x: 0.00070313, y: -0.00222656, z: -0.00875}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fist_R2
+      parentName: 
+      position: {x: -0.00019531, y: -0.00011718999, z: -0.00222656}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandPoint_R
+      parentName: 
+      position: {x: -0.0003125, y: -0.00039062998, z: -0.00003906}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Biceps_L
+      parentName: 
+      position: {x: -0.0055468795, y: 0.0009375, z: 0.010468749}
+      rotation: {x: 0.00000008940696, y: 0.5981117, z: 0.08758973, w: 0.7966119}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Forearm_L
+      parentName: 
+      position: {x: -0.00242188, y: 0.00136719, z: -0.00933594}
+      rotation: {x: 0.17280143, y: 0.10072098, z: -0.03406269, w: 0.9792011}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SHIELD_POINT
+      parentName: 
+      position: {x: -0.00273438, y: -0.0017578099, z: -0.00398438}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fist_L
+      parentName: 
+      position: {x: -0.0003125, y: -0.0023437499, z: -0.00851563}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fist_L2
+      parentName: 
+      position: {x: 0.00003906, y: 0.00023437999, z: -0.00257813}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandPoint_L
+      parentName: 
+      position: {x: 0.00007813, y: -0.00066405995, z: 0.00007813}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HeadMain0_DMSPRITEDEF
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: U3DMesh
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

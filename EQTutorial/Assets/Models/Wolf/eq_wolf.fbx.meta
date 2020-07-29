@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 51692f89ee6e8ec4e87044bd1cbc49ee
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BI_L
+    100002: BI_R
+    100004: BO_L
+    100006: BO_R
+    100008: CA_L
+    100010: CA_R
+    100012: CH
+    100014: EA_L
+    100016: EA_R
+    100018: //RootNode
+    100020: FI_L
+    100022: FI_R
+    100024: FN_L
+    100026: FN_R
+    100028: FO_L
+    100030: FO_R
+    100032: HE
+    100034: HEAD_POINT
+    100036: JA
+    100038: NE
+    100040: PE
+    100042: Root
+    100044: TA1
+    100046: TA2
+    100048: TA3
+    100050: TH_L
+    100052: TH_R
+    100054: TO_L
+    100056: TO_R
+    100058: U3DMesh
+    100060: U3DRoot
+    400000: BI_L
+    400002: BI_R
+    400004: BO_L
+    400006: BO_R
+    400008: CA_L
+    400010: CA_R
+    400012: CH
+    400014: EA_L
+    400016: EA_R
+    400018: //RootNode
+    400020: FI_L
+    400022: FI_R
+    400024: FN_L
+    400026: FN_R
+    400028: FO_L
+    400030: FO_R
+    400032: HE
+    400034: HEAD_POINT
+    400036: JA
+    400038: NE
+    400040: PE
+    400042: Root
+    400044: TA1
+    400046: TA2
+    400048: TA3
+    400050: TH_L
+    400052: TH_R
+    400054: TO_L
+    400056: TO_R
+    400058: U3DMesh
+    400060: U3DRoot
+    2100000: T_WOLLG0003_MDF
+    2100002: T_WOLLG0001_MDF
+    2100004: T_WOLLG0002_MDF
+    2100006: T_WOLFT0001_MDF
+    2100008: T_WOLCH0001_MDF
+    2100010: T_WOLFT0002_MDF
+    2100012: T_WOLHE0001_MDF
+    2100014: T_WOLHE0007_MDF
+    2100016: T_WOLHE0006_MDF
+    2100018: T_WOLHE0008_MDF
+    2100020: T_WOLHE0004_MDF
+    2100022: T_WOLHE0003_MDF
+    2100024: T_WOLHE0002_MDF
+    2100026: T_WOLHE0005_MDF
+    4300000: U3DMesh
+    7400000: Melee1H
+    7400002: SwimAttack
+    7400004: Hurt_01
+    7400006: Dead
+    7400008: Run
+    7400010: Idle_01
+    7400012: Idle
+    7400014: Turn
+    7400016: Swim
+    9500000: //RootNode
+    13700000: U3DMesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
