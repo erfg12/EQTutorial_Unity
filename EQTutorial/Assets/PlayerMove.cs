@@ -19,7 +19,7 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         float rotateSpeed = 3f;
-        float speed = 8f;
+        float speed = 14f;
 
         groundedPlayer = controller.isGrounded;
         if (groundedPlayer && playerVelocity.y < 0)
@@ -38,9 +38,10 @@ public class PlayerMove : MonoBehaviour
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
 
-        // Rotate around y - axis
-        transform.Rotate(0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
-        float curSpeed = speed * Input.GetAxis("Vertical");
+        // Rotate around y - axis, ignore on right click
+        if (!Input.GetMouseButton(1)) {
+            transform.Rotate(0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
+        }
 
         // Move forward / backward
         Vector3 forward = new Vector3(0,0,0);
@@ -50,7 +51,22 @@ public class PlayerMove : MonoBehaviour
         } else {
             forward = transform.TransformDirection(Vector3.forward);
         }
-        controller.SimpleMove(forward * curSpeed);
+
+        if (Input.GetMouseButton(1)) {
+            // Get Horizontal and Vertical Input
+            float horizontalInput = Input.GetAxis("Horizontal");
+            float verticalInput = Input.GetAxis("Vertical");
+
+            // Calculate the Direction to Move based on the tranform of the Player
+            Vector3 moveDirectionForward = transform.forward * verticalInput * Time.deltaTime;
+            Vector3 moveDirectionSide = transform.right * horizontalInput * Time.deltaTime;
+
+            // Apply Movement to Player
+            controller.SimpleMove((moveDirectionForward + moveDirectionSide).normalized * speed);
+        } else {
+            float curSpeed = speed * Input.GetAxis("Vertical");
+            controller.SimpleMove(forward * curSpeed);
+        }
     }
     
     /*Rigidbody rb;

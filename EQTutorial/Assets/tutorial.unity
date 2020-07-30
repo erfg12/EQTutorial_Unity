@@ -184,13 +184,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 18649403}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.77, z: 0.03}
+  m_LocalRotation: {x: 0, y: -0.012243264, z: 0, w: 0.99992514}
+  m_LocalPosition: {x: 0, y: 5.32, z: 0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -1.4030001, z: 0}
 --- !u!114 &18649407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,6 +203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1300850081}
+  yaw: 0
+  pitch: 0
 --- !u!1 &28042144
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,6 +467,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 41838730}
   m_Mesh: {fileID: 4300000, guid: 8c32039fd8e817a4885b4a22cbe32966, type: 3}
+--- !u!1 &50875746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: 28566d71e8e7d05418aae846769b6ee8,
+    type: 3}
+  m_PrefabInternal: {fileID: 2090470437}
+--- !u!114 &50875749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 50875746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18a99d6de5875a4fa9abbba2960b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCName: Zangoora
+  height: 2
 --- !u!1 &54165733
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,6 +994,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 94477109}
   m_Mesh: {fileID: 4300000, guid: 6dffb142bee7d264cbdcdbf55e05be17, type: 3}
+--- !u!1 &112185916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: e52d67e777cd8624380d80457bda36e0,
+    type: 3}
+  m_PrefabInternal: {fileID: 1370844483}
+--- !u!114 &112185919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 112185916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18a99d6de5875a4fa9abbba2960b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCName: Evil Skeleton
+  height: 2
 --- !u!1 &169116993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1436,6 +1474,24 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &227073084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100018, guid: 51692f89ee6e8ec4e87044bd1cbc49ee,
+    type: 3}
+  m_PrefabInternal: {fileID: 527570303}
+--- !u!114 &227073085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 227073084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18a99d6de5875a4fa9abbba2960b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCName: name
+  height: 2
 --- !u!1 &234456322
 GameObject:
   m_ObjectHideFlags: 0
@@ -3280,7 +3336,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 3f6ba33c6aa54604ab38530de2db392a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.99
+      value: 1.38
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 3f6ba33c6aa54604ab38530de2db392a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3308,15 +3364,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 3f6ba33c6aa54604ab38530de2db392a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 80
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 3f6ba33c6aa54604ab38530de2db392a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 80
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 3f6ba33c6aa54604ab38530de2db392a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 80
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 3f6ba33c6aa54604ab38530de2db392a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -4137,6 +4193,59 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &681184526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: 2c8603440bbede74f9beb2237a1692c6,
+    type: 3}
+  m_PrefabInternal: {fileID: 700216690}
+--- !u!114 &681184529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 681184526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18a99d6de5875a4fa9abbba2960b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCName: Prumpy Irontoe
+  height: 1.4
+--- !u!23 &681184530
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 681184526}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1001 &700216690
 Prefab:
   m_ObjectHideFlags: 0
@@ -4150,7 +4259,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 2c8603440bbede74f9beb2237a1692c6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.12
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 2c8603440bbede74f9beb2237a1692c6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4178,19 +4287,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 2c8603440bbede74f9beb2237a1692c6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 80
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 2c8603440bbede74f9beb2237a1692c6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 80
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 2c8603440bbede74f9beb2237a1692c6, type: 3}
       propertyPath: m_LocalScale.z
-      value: 80
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 2c8603440bbede74f9beb2237a1692c6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 96.51301
+      objectReference: {fileID: 0}
+    - target: {fileID: 400050, guid: 2c8603440bbede74f9beb2237a1692c6, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 2c8603440bbede74f9beb2237a1692c6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c8603440bbede74f9beb2237a1692c6, type: 3}
@@ -4657,6 +4774,42 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &797346946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: e98f869b58c6a354a9bd5a04c0a52388,
+    type: 3}
+  m_PrefabInternal: {fileID: 1212808659}
+--- !u!114 &797346949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 797346946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18a99d6de5875a4fa9abbba2960b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCName: Vekin Phermec
+  height: 2
+--- !u!1 &800080336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: 69266a17ee6e5b74e8db3092664f6d44,
+    type: 3}
+  m_PrefabInternal: {fileID: 1315648987}
+--- !u!114 &800080339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 800080336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18a99d6de5875a4fa9abbba2960b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCName: Leeper
+  height: 2
 --- !u!1 &800810761
 GameObject:
   m_ObjectHideFlags: 0
@@ -5722,6 +5875,24 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &948454243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1,
+    type: 3}
+  m_PrefabInternal: {fileID: 1452647719}
+--- !u!114 &948454246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 948454243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18a99d6de5875a4fa9abbba2960b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCName: Nuber
+  height: 2
 --- !u!1 &958603068
 GameObject:
   m_ObjectHideFlags: 0
@@ -6296,6 +6467,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 983017359}
   m_Mesh: {fileID: 4300000, guid: 44c3bc0c6c6039b4f98a348cd51e8413, type: 3}
+--- !u!1 &983970988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: 3f6ba33c6aa54604ab38530de2db392a,
+    type: 3}
+  m_PrefabInternal: {fileID: 522480472}
+--- !u!114 &983970991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 983970988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18a99d6de5875a4fa9abbba2960b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCName: Nornin Has
+  height: 1.5
 --- !u!1 &989380414
 GameObject:
   m_ObjectHideFlags: 0
@@ -8055,7 +8244,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.01
+      value: -0.010002456
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8063,7 +8252,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.08
+      value: 0.07715188
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8071,7 +8260,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.089466095
+      value: 0.0036673131
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalRotation.z
@@ -8079,7 +8268,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.99598986
+      value: -0.99999326
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_RootOrder
@@ -8087,19 +8276,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 80
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 80
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 80
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -370.266
+      value: -360.42
       objectReference: {fileID: 0}
     - target: {fileID: 100054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_Name
@@ -8146,7 +8335,7 @@ CharacterController:
   m_Height: 0.07
   m_Radius: 0.01
   m_SlopeLimit: 90
-  m_StepOffset: 0.3
+  m_StepOffset: 0.5
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
@@ -9153,6 +9342,22 @@ Prefab:
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 124.63601
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700008, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700010, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700012, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700014, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
@@ -10636,6 +10841,24 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1695300674 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: 94b64b0fc626253409a291ec0e7b3479,
+    type: 3}
+  m_PrefabInternal: {fileID: 258429890}
+--- !u!114 &1695300675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1695300674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18a99d6de5875a4fa9abbba2960b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCName: name
+  height: 2
 --- !u!1 &1700651474
 GameObject:
   m_ObjectHideFlags: 0
@@ -10725,6 +10948,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1700651474}
   m_Mesh: {fileID: 4300000, guid: 2ca06fdaaef355d4cbf76d4ff46419c4, type: 3}
+--- !u!1 &1758937605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: 69a411a810709f1408d2fd41dbb6bd5b,
+    type: 3}
+  m_PrefabInternal: {fileID: 1095206201}
+--- !u!114 &1758937608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1758937605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18a99d6de5875a4fa9abbba2960b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCName: Riggs Cashpot
+  height: 2
 --- !u!1 &1767109753
 GameObject:
   m_ObjectHideFlags: 0
@@ -11624,6 +11865,24 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1929285554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 194294, guid: 967ce97b5045c6d43874ff44db8bfb2d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1955279145}
+--- !u!114 &1929285558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1929285554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18a99d6de5875a4fa9abbba2960b723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPCName: Meek
+  height: 2
 --- !u!1 &1937754020
 GameObject:
   m_ObjectHideFlags: 0
@@ -11942,6 +12201,10 @@ Prefab:
     - target: {fileID: 494372, guid: 967ce97b5045c6d43874ff44db8bfb2d, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11479330, guid: 967ce97b5045c6d43874ff44db8bfb2d, type: 2}
+      propertyPath: TextureSet
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 967ce97b5045c6d43874ff44db8bfb2d, type: 2}
