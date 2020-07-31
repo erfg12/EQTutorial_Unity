@@ -24,13 +24,15 @@ public class CameraController : MonoBehaviour
         
         if (Input.GetKey(KeyCode.PageUp))
         {
-            //transform.rotation = Quaternion.RotateTowards(transform.rotation, CamPitch, step);
+            pitch -= speedV * 0.2f;
             Debug.Log("look up");
+            transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
         }
         if (Input.GetKey(KeyCode.PageDown))
         {
-            //transform.rotation = Quaternion.RotateTowards(transform.rotation, CamPitch, step);
+            pitch -= speedV * -0.2f;
             Debug.Log("look down");
+            transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
         }
 
         // right click
