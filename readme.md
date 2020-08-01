@@ -4,13 +4,15 @@ Extractor: https://github.com/danwilkins/LanternExtractor
 
 Importer: https://github.com/danwilkins/LanternUnityImporter
 
-This project uses Unity 2018.2.21f1: https://unity3d.com/get-unity/download/archive
+This project uses Unity 2018.4.17f1: https://unity3d.com/get-unity/download/archive
 
 ### What's Done
-* Collisions, lighting and player controls.
+
+- Collisions, lighting and player controls.
 
 ### To Be Done
-* NPCs
-* Animations
-* UI elements
-* Quests
+
+- NPCs
+- Animations
+- UI elements
+- Quests
