@@ -93,6 +93,11 @@ public class PlayerMove : MonoBehaviour
         {
             ChatTextArea.text += "Hail, " + TargetName.text + '\n';
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     private void OnTriggerEnter(Collider collision)
