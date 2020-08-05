@@ -15,7 +15,8 @@ public class PlayerMove : MonoBehaviour
     public Text TargetName;
     public Text ChatTextArea;
     Rigidbody rb;
-    
+    public GameObject OkMsgBox;
+
     Ray ray;
     RaycastHit hit;
 
@@ -85,13 +86,34 @@ public class PlayerMove : MonoBehaviour
             {
                 if (hit.collider.tag == "NPC") {
                     TargetName.text = hit.collider.GetComponent<NPC>().NPCName;
+                    if (TargetName.text.Equals("Prumpy Irontoe"))
+                    {
+                        // add text to text area
+                        ChatTextArea.text += '\n' + "<color=white>Prumpy Irontoe says, 'Good! Now press the H key.'</color>" + '\n';
+
+                        // expand text box
+                        ChatTextArea.rectTransform.sizeDelta = new Vector2(ChatTextArea.rectTransform.sizeDelta.x, ChatTextArea.rectTransform.sizeDelta.y + 40);
+                        
+                    }
                 }
             }
         }
 
         if (Input.GetKeyDown(KeyCode.H))
         {
-            ChatTextArea.text += "Hail, " + TargetName.text + '\n';
+            ChatTextArea.text += "<color=white>Hail, " + TargetName.text + "</color>" + '\n';
+            ChatTextArea.rectTransform.sizeDelta = new Vector2(ChatTextArea.rectTransform.sizeDelta.x, ChatTextArea.rectTransform.sizeDelta.y + 20);
+
+            if (TargetName.text.Equals("Prumpy Irontoe"))
+            {
+                // add text to text area
+                ChatTextArea.text += "<color=white>Prumpy Irontoe says, 'Greetings Soandso! Very good. That is the first step to communicating with the many people and [creatures] you will meet on Norrath.'</color>" + '\n';
+
+                // expand text box
+                ChatTextArea.rectTransform.sizeDelta = new Vector2(ChatTextArea.rectTransform.sizeDelta.x, ChatTextArea.rectTransform.sizeDelta.y + 50);
+
+                OkMsgBox.SetActive(true);
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))

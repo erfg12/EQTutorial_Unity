@@ -163,7 +163,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 80
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -189,7 +189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18649403}
   m_LocalRotation: {x: 0, y: -0.012243264, z: 0, w: 0.99992514}
-  m_LocalPosition: {x: 0, y: 3.49, z: 0.03}
+  m_LocalPosition: {x: 0, y: 3.49, z: -0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1093,6 +1093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 139119325}
   - component: {fileID: 139119326}
+  - component: {fileID: 139119327}
   m_Layer: 5
   m_Name: TextContainer
   m_TagString: Untagged
@@ -1116,11 +1117,11 @@ RectTransform:
   m_Father: {fileID: 432561164}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015736, y: -3.4}
-  m_SizeDelta: {x: 401.6, y: 176.1}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 84.650024}
+  m_SizeDelta: {x: -0.3999939, y: 176.1}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &139119326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1151,6 +1152,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &139119327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139119324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 494c47e3c54db4e158d4bc9d00cb196b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 0}
 --- !u!1 &169116993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,10 +2912,10 @@ RectTransform:
   m_Father: {fileID: 1680497413}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6.1799316, y: -200.09998}
-  m_SizeDelta: {x: -398.4, y: -420.3}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 24.51, y: -200.55}
+  m_SizeDelta: {x: -337.02, y: 178.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &432561165
 MonoBehaviour:
@@ -2923,7 +2937,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432561163}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -2950,6 +2964,100 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432561163}
+  m_CullTransparentMesh: 0
+--- !u!1 &434493813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 434493814}
+  - component: {fileID: 434493817}
+  - component: {fileID: 434493816}
+  - component: {fileID: 434493815}
+  m_Layer: 5
+  m_Name: okMsgBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &434493814
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434493813}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 912692021}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -85.60001, y: 163.9}
+  m_SizeDelta: {x: 278.09, y: 146.38}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &434493815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434493813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5290469dcdc4c481b9ec94b57d5c3fde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextBox: {fileID: 1417723343}
+  sr: {fileID: 139119326}
+  MessageOnClose: <color=black>Note in Prumpy's response how the word [creatures]
+    is enclosed by brackets. When you see a word or phrawse enclosed by brackets in
+    someone's speech, that usually means that they know more information about that
+    subject. These are known as Keywords or Keyphrases. Read the text carefully, then
+    ask follow-up questions to learn more information. For example, in response to
+    Prumpy's statement, you might ask 'What kind of creatures?' or 'Where can I find
+    these creatures?' Be sure to include the entire Keyword or Keyphrase in your follow-up
+    questions or statements. Now press the ENTER key.</color>
+  LineHeight: 160
+--- !u!114 &434493816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434493813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 5f25bcceeb9e94b5486a345911398c21, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &434493817
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434493813}
   m_CullTransparentMesh: 0
 --- !u!1 &438359813
 GameObject:
@@ -4393,10 +4501,10 @@ RectTransform:
   m_Father: {fileID: 912692021}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -341.44, y: 107.5}
-  m_SizeDelta: {x: 66.79, y: 156.61}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 59.19995, y: 100.29999}
+  m_SizeDelta: {x: 57.52, y: -435.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &595920078
 Animator:
@@ -5030,8 +5138,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -23.920044, y: -38.01001}
-  m_SizeDelta: {x: 98.51, y: 15.54}
+  m_AnchoredPosition: {x: -61.379883, y: -38.01001}
+  m_SizeDelta: {x: 61.05, y: 15.54}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &720739056
 MonoBehaviour:
@@ -6580,6 +6688,8 @@ RectTransform:
   - {fileID: 938635801}
   - {fileID: 2084747449}
   - {fileID: 595920077}
+  - {fileID: 1105968421}
+  - {fileID: 434493814}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6805,10 +6915,10 @@ RectTransform:
   m_Father: {fileID: 912692021}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 326.07, y: -3.8}
-  m_SizeDelta: {x: 125.58, y: 11.63}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -73.92999, y: -3.7999878}
+  m_SizeDelta: {x: 125.58002, y: 11.630005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &938635802
 MonoBehaviour:
@@ -6824,7 +6934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 0.392}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7877,7 +7987,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.00004005432, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1001735372
@@ -8546,6 +8656,95 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a411a810709f1408d2fd41dbb6bd5b, type: 3}
+--- !u!1 &1105968420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1105968421}
+  - component: {fileID: 1105968423}
+  - component: {fileID: 1105968422}
+  - component: {fileID: 1105968424}
+  m_Layer: 5
+  m_Name: WelcomeMsg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1105968421
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105968420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 912692021}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -85.6, y: 163.9}
+  m_SizeDelta: {x: 278.09, y: 146.38}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1105968422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105968420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: d9768ed41e96f41d4a4f94c6e95af7cd, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1105968423
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105968420}
+  m_CullTransparentMesh: 0
+--- !u!114 &1105968424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105968420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5290469dcdc4c481b9ec94b57d5c3fde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextBox: {fileID: 1417723343}
+  sr: {fileID: 139119326}
+  MessageOnClose: Be sure to read all of the stone markers on this little island.
+    When you feel comfortable moving about, approach the dwarf, Prumpy Irontoe, on
+    the bridge.
+  LineHeight: 40
 --- !u!1 &1120027173
 GameObject:
   m_ObjectHideFlags: 0
@@ -9013,6 +9212,112 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174854385}
   m_Mesh: {fileID: 4300000, guid: bc82a7ca2b22dbf469b398e4d7f08149, type: 3}
+--- !u!1 &1202331209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1202331214}
+  - component: {fileID: 1202331213}
+  - component: {fileID: 1202331212}
+  - component: {fileID: 1202331211}
+  - component: {fileID: 1202331210}
+  m_Layer: 0
+  m_Name: PrumpyIrontoeTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1202331210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202331209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f221960a01564cc9a97f0bef36de87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextBox: {fileID: 1417723343}
+  sr: {fileID: 139119326}
+--- !u!65 &1202331211
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202331209}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1202331212
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202331209}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1202331213
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202331209}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1202331214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202331209}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.48, y: 3.49, z: 0.05}
+  m_LocalScale: {x: 1, y: 5.25, z: 14.022}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1204029809
 GameObject:
   m_ObjectHideFlags: 0
@@ -9547,7 +9852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.07715188
+      value: -0.15284824
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 02157fc6c83e73b40bcd6e5a0aee43c1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -9643,6 +9948,7 @@ MonoBehaviour:
   ClimbingLadder: 0
   TargetName: {fileID: 2084747450}
   ChatTextArea: {fileID: 1417723343}
+  OkMsgBox: {fileID: 434493813}
 --- !u!1001 &1315648987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10444,10 +10750,10 @@ RectTransform:
   m_Father: {fileID: 139119325}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000023842, y: 0.00000059604645}
-  m_SizeDelta: {x: 401.6, y: 179.28}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -31.58, y: 0}
+  m_SizeDelta: {x: -63.56, y: 179.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1417723343
 MonoBehaviour:
@@ -10462,14 +10768,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 11
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -10480,15 +10786,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Welcome to EverQuest!
+  m_Text: '
+
+
+
+
+
+
+    Welcome to EverQuest!
 
     You are In our world now!
 
     This Tutorial will walk you through the basic commands you will use In your adventures
     on Norrath.
-
-    Be sure to read all of the stone markers on this little island. When you feel
-    comfortable moving about, approach the dwarf, Prumpy Irontoe, on the bridge.
 
 '
 --- !u!222 &1417723344
@@ -11213,10 +11523,10 @@ RectTransform:
   m_Father: {fileID: 139119325}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250.3, y: 1.19}
-  m_SizeDelta: {x: 14, y: 132.17}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 219.62, y: 2.03}
+  m_SizeDelta: {x: -449.38, y: 129.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1509260028
 MonoBehaviour:
@@ -11257,7 +11567,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1001735372}
   m_HandleRect: {fileID: 1001735371}
   m_Direction: 2
-  m_Value: 0.5000048
+  m_Value: 0.5
   m_Size: 0.98226243
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -13516,7 +13826,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000038146973, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -0.0000019073, y: 0.000015259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1875159726
@@ -15156,10 +15466,10 @@ RectTransform:
   m_Father: {fileID: 912692021}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.5999756, y: -298.9}
-  m_SizeDelta: {x: 138.22, y: 11.63}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -51.149902, y: 1.1000061}
+  m_SizeDelta: {x: 84.47, y: 11.630005}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &2084747450
 MonoBehaviour:
