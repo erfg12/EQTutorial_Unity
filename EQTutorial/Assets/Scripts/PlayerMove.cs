@@ -16,6 +16,10 @@ public class PlayerMove : MonoBehaviour
     public Text ChatTextArea;
     Rigidbody rb;
     public GameObject OkMsgBox;
+    private GameObject Persona;
+    private GameObject TargetHealth;
+    private GameObject MyName;
+    private GameObject SpellBook;
 
     Ray ray;
     RaycastHit hit;
@@ -23,6 +27,11 @@ public class PlayerMove : MonoBehaviour
     void Start() {
         controller = GetComponent<CharacterController>();
         rb = GetComponent<Rigidbody>();
+
+        Persona = GameObject.Find("persona");
+        TargetHealth = GameObject.Find("TargetHealth");
+        MyName = GameObject.Find("MyName");
+        SpellBook = GameObject.Find("SpellBook");
     }
 
     void Update()
@@ -116,9 +125,43 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            if (SpellBook.activeSelf)
+            {
+                InventoryMenu();
+            }
+            else
+            {
+                InventoryMenu(false);
+            }
+        }
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
+        }
+    }
+
+    private void InventoryMenu(bool open = true)
+    {
+        if (open)
+        {
+            GameObject.Find("MainUI").GetComponent<RawImage>().texture = Resources.Load<Texture2D>("main_ui_2");
+            Persona.SetActive(false);
+            TargetHealth.SetActive(false);
+            TargetName.gameObject.SetActive(false);
+            MyName.SetActive(false);
+            SpellBook.SetActive(false);
+        }
+        else
+        {
+            GameObject.Find("MainUI").GetComponent<RawImage>().texture = Resources.Load<Texture2D>("main_ui");
+            Persona.SetActive(true);
+            TargetHealth.SetActive(true);
+            TargetName.gameObject.SetActive(true);
+            MyName.SetActive(true);
+            SpellBook.SetActive(true);
         }
     }
 
