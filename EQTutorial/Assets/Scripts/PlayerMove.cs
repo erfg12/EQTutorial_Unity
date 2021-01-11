@@ -105,6 +105,13 @@ public class PlayerMove : MonoBehaviour
                         
                     }
                 }
+
+                if (hit.collider.name == "WelcomeOkButton")
+                {
+                    GameObject wm = GameObject.Find("WelcomeMsg");
+                    if (wm != null)
+                        wm.SetActive(false);
+                }
             }
         }
 
