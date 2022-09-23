@@ -738,7 +738,7 @@ namespace Editor
 
                 importer.addCollider = true; //  we will replace the collision mesh where relevant
                 importer.importNormals = ModelImporterNormals.Calculate;
-                importer.importMaterials = true;
+                //importer.importMaterials = true;
                 importer.materialLocation = ModelImporterMaterialLocation.External;
                 importer.materialSearch = ModelImporterMaterialSearch.RecursiveUp;
                 importer.SaveAndReimport();

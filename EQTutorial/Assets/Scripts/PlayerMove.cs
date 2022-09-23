@@ -20,6 +20,10 @@ public class PlayerMove : MonoBehaviour
     private GameObject TargetHealth;
     private GameObject MyName;
     private GameObject SpellBook;
+    public GameObject ChatBox;
+    public GameObject ScrollArea;
+    public InputField TextInput;
+    private bool OpenChatBox = false;
 
     Ray ray;
     RaycastHit hit;
@@ -36,7 +40,7 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        float rotateSpeed = 3f;
+        float rotateSpeed = 1.5f;
         float speed = 14f;
 
         // check if player on ground
@@ -47,46 +51,63 @@ public class PlayerMove : MonoBehaviour
         }
 
         // Changes the height position of the player..
-        if (Input.GetButtonDown("Jump") && (groundedPlayer || UnderWater))
+        if (!OpenChatBox)
         {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
+            if (Input.GetButtonDown("Jump") && (groundedPlayer || UnderWater))
+            {
+                playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
+            }
+            if (UnderWater)
+            {
+                playerVelocity.y += Mathf.Sqrt(1.0f * gravityValue);
+            }
+            playerVelocity.y += gravityValue * Time.deltaTime;
         }
-        if (UnderWater) {
-            playerVelocity.y += Mathf.Sqrt(1.0f * gravityValue);
-        }
-        playerVelocity.y += gravityValue * Time.deltaTime;
+
 
         // Rotate around y - axis, ignore on right click
-        if (!Input.GetMouseButton(1)) {
+        if (!Input.GetMouseButton(1) && !OpenChatBox) {
             transform.Rotate(0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
         }
 
-        //if (UnderWater) {
-        //    controller.Move(new Vector3(0, 0.2f, 0));
-        //} else {
-            controller.Move(playerVelocity * Time.deltaTime);
-        //}
-
         // Move forward / backward
-        Vector3 forward = new Vector3(0,0,0);
-        if (ClimbingLadder && Input.GetAxis("Vertical") > 1) {
-            //Debug.Log("climbing ladder");
-            transform.position += new Vector3(0, 50, 0);
-        } else {
-            forward = transform.TransformDirection(Vector3.forward);
+        Vector3 forward = new Vector3(0, 0, 0);
+        if (!OpenChatBox)
+        {
+            //if (UnderWater) {
+            //    controller.Move(new Vector3(0, 0.2f, 0));
+            //} else {
+            controller.Move(playerVelocity * Time.deltaTime);
+            //}
+            
+            if (ClimbingLadder && Input.GetAxis("Vertical") > 1)
+            {
+                //Debug.Log("climbing ladder");
+                transform.position += new Vector3(0, 50, 0);
+            }
+            else
+            {
+                forward = transform.TransformDirection(Vector3.forward);
+            }
         }
 
         // right click, move camera and allow strafing
-            if (Input.GetMouseButton(1) /*|| UnderWater*/) {
+        if (!OpenChatBox)
+        {
+            if (Input.GetMouseButton(1) /*|| UnderWater*/)
+            {
                 float horizontalInput = Input.GetAxis("Horizontal");
                 float verticalInput = Input.GetAxis("Vertical");
                 Vector3 moveDirectionForward = transform.forward * verticalInput * Time.deltaTime;
                 Vector3 moveDirectionSide = transform.right * horizontalInput * Time.deltaTime;
                 controller.SimpleMove((moveDirectionForward + moveDirectionSide).normalized * speed);
-            } else {
+            }
+            else
+            {
                 float curSpeed = speed * Input.GetAxis("Vertical");
                 controller.SimpleMove(forward * curSpeed);
             }
+        }
 
         if (Input.GetMouseButtonDown(0)){
             // left click on NPC, change UI target name
@@ -115,7 +136,43 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            if (OpenChatBox)
+            {
+                Debug.Log("closing OpenChatBox with text " + TextInput.text + " inside.");
+                if (TextInput.text != "")
+                {
+                    ChatTextArea.text += "<color=black>You say '" + TextInput.text + "'</color>" + '\n';
+                    ChatTextArea.rectTransform.sizeDelta = new Vector2(ChatTextArea.rectTransform.sizeDelta.x, ChatTextArea.rectTransform.sizeDelta.y + 30);
+                }
+                OpenChatBox = false;
+            }
+            else
+                OpenChatBox = true;
+        }
+        if (OpenChatBox) { // open text input
+            TextInput.interactable = true;
+            TextInput.Select();
+            TextInput.ActivateInputField();
+            Vector3 MoveTo = new Vector3(ChatBox.transform.position.x, 32, ChatBox.transform.position.z);
+            ChatBox.transform.position = Vector3.Lerp(ChatBox.transform.position, MoveTo, 0.3f);
+            MoveTo = new Vector3(ScrollArea.transform.position.x, 147f, ScrollArea.transform.position.z);
+            ScrollArea.transform.position = Vector3.Lerp(ScrollArea.transform.position, MoveTo, 0.3f);
+            ScrollArea.transform.localScale = new Vector3(1,0.75f,1);
+        } 
+        else // close text input
+        {
+            TextInput.text = "";
+            TextInput.interactable = false;
+            Vector3 MoveTo = new Vector3(ChatBox.transform.position.x, -32, ChatBox.transform.position.z);
+            ChatBox.transform.position = Vector3.Lerp(ChatBox.transform.position, MoveTo, 0.3f);
+            MoveTo = new Vector3(ScrollArea.transform.position.x, 125f, ScrollArea.transform.position.z);
+            ScrollArea.transform.position = Vector3.Lerp(ScrollArea.transform.position, MoveTo, 0.3f);
+            ScrollArea.transform.localScale = new Vector3(1, 1, 1);
+        }
+
+        if (Input.GetKeyDown(KeyCode.H) && !OpenChatBox)
         {
             ChatTextArea.text += "<color=white>Hail, " + TargetName.text + "</color>" + '\n';
             ChatTextArea.rectTransform.sizeDelta = new Vector2(ChatTextArea.rectTransform.sizeDelta.x, ChatTextArea.rectTransform.sizeDelta.y + 20);
@@ -132,7 +189,7 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I) && !OpenChatBox)
         {
             if (SpellBook.activeSelf)
             {
@@ -144,7 +201,7 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !OpenChatBox)
         {
             Application.Quit();
         }
@@ -177,6 +234,11 @@ public class PlayerMove : MonoBehaviour
         if (collision.gameObject.tag == "ladder") {
             ClimbingLadder = true;
             Debug.Log("on ladder");
+        }
+        if (collision.gameObject.name == "Exit")
+        {
+            Application.Quit();
+            Debug.Log("quitting");
         }
     }
 
